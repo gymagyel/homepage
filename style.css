@@ -93,7 +93,7 @@ header h1 {
 }
 
 .projects {
-    padding: 80px 8%;
+    padding: 5px 8% 80px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -115,8 +115,10 @@ header h1 {
 }
 
 .project-image {
+    padding-top: 10px;
     height: 200px;
-    background-color: aqua;
+    width: 100%;
+    object-fit:contain;
     
 } 
 
