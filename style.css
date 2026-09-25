@@ -151,7 +151,6 @@ header h1 {
 }
 
 footer {
-    position: relative;
     background-color: #1498b3;
     min-height: 450px;
     padding: 50px 8%;
@@ -205,6 +204,55 @@ font-size: 2rem;
 
 .contact p {
     max-width: 300px;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    header {
+    display: block;
+    position: relative;
+}
+
+    .about-content {
+        margin: 80px 8% 0;
+        padding: 40px;
+        height: auto;
+        z-index: 1;
+        position: relative;
+    }
+
+    header::after {
+    z-index: 0;
+}
+
+
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+     header img {
+        position: relative;
+        float: left;
+        margin-right: 20px;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 350px;
+        z-index: 2;
+    }
+
+    header h1 {
+        position: absolute;
+        top: 85px;
+        left: 45%;
+        margin: 0;
+        z-index: 3;
+       
+    }
+
 }
 
 @media (max-width: 768px) {
