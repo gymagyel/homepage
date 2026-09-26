@@ -257,4 +257,53 @@ font-size: 2rem;
 
 @media (max-width: 768px) {
 
+    header {
+        background-color: #1498b3;
+       
+        padding: 30px 8% 0;
+    }
+
+    
+    header h1 {
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    
+    }   
+    
+
+    header img {
+        float: none;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    header::after {
+    height: 80px;
+    bottom: 0;
+    z-index: 0;
+}
+
+    .about-content{
+        background-color: white;
+        box-shadow: none;
+        margin: 0 ;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    
+
 }
