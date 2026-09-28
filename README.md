@@ -1,8 +1,12 @@
 # Personal Portfolio Homepage
 
-A responsive portfolio homepage built with HTML and CSS as part of The Odin Project.
+A responsive portfolio homepage built with HTML and CSS as part of [The Odin Project](https://www.theodinproject.com/).
 
-The page introduces me and showcases selected projects. It includes a responsive layout for desktop, tablet, and mobile screens.
+The page introduces me and showcases selected projects. Its layout adapts to desktop, tablet, and mobile screen sizes.
+
+## Live site
+
+[View the portfolio](https://gymagyel.github.io/homepage/)
 
 ## Built with
 
@@ -11,10 +15,9 @@ The page introduces me and showcases selected projects. It includes a responsive
 - Google Fonts
 - Font Awesome
 
-## View the site
+## Run locally
 
-
-
+Clone this repository and open `index.html` in a web browser. No build tools or dependencies are required.
 
 ## Credits
 
