@@ -209,7 +209,6 @@ font-size: 2rem;
 
 
 @media (max-width: 1024px) {
-
     header {
     display: block;
     position: relative;
@@ -226,8 +225,6 @@ font-size: 2rem;
     header::after {
     z-index: 0;
 }
-
-
 
     .projects {
         grid-template-columns: repeat(2, 1fr);
@@ -252,14 +249,11 @@ font-size: 2rem;
         z-index: 3;
        
     }
-
 }
 
 @media (max-width: 768px) {
-
     header {
         background-color: #1498b3;
-       
         padding: 30px 8% 0;
     }
 
