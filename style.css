@@ -259,7 +259,7 @@ font-size: 2rem;
 
     
     header h1 {
-    top: 55%;
+    top: calc(50px + 90vw);
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
